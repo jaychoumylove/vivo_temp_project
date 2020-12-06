@@ -1,0 +1,69 @@
+/* CSS Document */
+a{
+	color:#36C;
+}
+.body{
+	width:100%;
+	margin:0 auto;
+}
+.banner{
+	border:none;
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+	/*margin-bottom:10px;*/
+}
+.banner h2,.main h2{
+	font-size:25px;
+	display:inline-block;
+	margin-bottom:30px;
+}
+.banner .banner_img{
+	/*margin-bottom:15px;*/
+	/*margin:0 auto;*/
+	
+}
+.br_a1{
+	display:block;
+	margin-top:0px;
+	margin-left:-280px;
+}
+.br_a2{
+	display:block;
+	margin-left:815px;
+	margin-top:-315px;
+}
+.br_a3{
+	display:block;
+	margin-left:-672px;
+	margin-top:-350px;
+}
+.br_a4{
+	display:block;
+	margin-left:100px;
+	margin-top:-349px;
+}
+.main{
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	background:#FFF;
+}
+.main ul li{
+	float:left;
+	width:308px;
+	height:350px;
+}
+.main .mage{
+	font-size:20px;
+	/*margin-left:5px;*/
+}
+.main .mage a{
+	
+	text-align:center;
+	height:39px;
+	line-height:39px;
+}
+.mage_1{
+	margin-bottom:-11px;
+}

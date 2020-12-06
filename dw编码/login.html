@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>vivo_login</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/login.css"/>
+<!--<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".left .select li input").change(function(){
+			var radio_vals= $(this).val();
+			if(radio_vals=="phone"){
+				$(".left .phone").show();
+				$(".left .email").hide();
+			}else{
+				$(".left .phone").hide();
+				$(".left .email").show();
+			}
+		})
+	})
+</script>
+</head>
+
+<body>
+	<div class="vivo_login">
+        <div class="vivo_l_top">
+            <a href="#" target="_blank"><img src="images/se_top.png" /></a>
+        </div>
+        <div class="vivo_l_center">
+            <form class="left" action="#">
+            	已有账户？<a href="zhanghu.html" target="_blank">立即登录</a>
+            	<ul class="select">
+                    <li>
+                    	<input id="RegisterForm_mode_0" value="phone" name="RegisterForm[mode]" checked="checked" autocomplete="off" type="radio"> 
+                        <label for="RegisterForm_mode_0">用手机注册</label>
+                        <input id="RegisterForm_mode_1" value="email" name="RegisterForm[mode]" disableautocomplete="" autocomplete="off" type="radio"> 
+                        <label for="RegisterForm_mode_1">用邮箱注册</label>
+                    </li>
+                </ul>
+                <ul class="phone">
+                    <li class="li_1">
+                    	<img class="li__0" src="images/li——3.png" />
+                        <input placeholder="请输入图片验证码" type="text" />
+                    	<span><img src="images/yz_img-6.png" /></span>
+                        <a class="li-1-1" href="#" target="_blank">换一张</a>
+                    </li>
+                    <li class="li_2">
+                    	<img class="li__0" src="images/li——4.png" />
+                        <input class="input_1" placeholder="请输入手机号" type="text" />
+                    </li>
+                    <li class="li_3">
+                    	<img class="li__0" src="images/li——3.png" />
+                        <input placeholder="请输入手机验证码" type="text" />
+                        <a href="#" target="_blank">获取验证码</a>
+                    </li>
+                    <li class="li_4">
+                    	<img class="li__0" src="images/li——2.png" />
+                        <input class="input_1" placeholder="请输入密码" type="password" />
+                    </li>
+                    <li class="li_5">
+                        <img class="li__0" src="images/li——2.png" />
+                        <input class="input_1" placeholder="请再一次输入密码" type="password" />
+                    </li>
+                </ul>
+                <ul class="email">
+                    <li class="li-1">
+                    	<img class="li__0" src="images/li——5.png" />
+                        <input class="input_1" placeholder="请输入邮箱地址" type="text" />
+                    </li>
+                    <li class="li-2">
+                    	<img class="li__0" src="images/li——2.png" />
+                        <input class="input_1" placeholder="请输入密码" type="password" />
+                    </li>
+                    <li class="li-3">
+                    	<img class="li__0" src="images/li——2.png" />
+                        <input class="input_1" placeholder="请再一次输入密码" type="password" />
+                    </li>
+                    <li class="li-4">
+                    	<img class="li__0" src="images/li——3.png" />
+                        <input placeholder="请输入图片验证码" type="text" />
+                    	<span><img src="images/yz_img-6.png" /></span>
+                        <a class="li-4-1" href="#" target="_blank">换一张</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <input checked="checked" type="checkbox">
+						<label>我已阅读并接受</label>
+                        <a href="#" target="_blank">《vivo服务协议》</a>
+                    </li>
+                    <li class="li_7"><input value="立即注册" type="submit" /></li>
+                </ul>
+            </form>
+            <div class="right">
+                <ul>
+                	<li>其他方式登录</li>
+                    <li><a href="#" target="_blank"><img src="images/rig_QQ.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/rig_weichat.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/rig_sina.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/rig_renren.png" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/rig_kefu.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

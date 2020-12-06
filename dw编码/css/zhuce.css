@@ -1,0 +1,153 @@
+/* CSS Document */
+
+body{
+	width:100%;
+	margin:0 auto;
+}
+.box{
+	margin-top:38px;
+	margin-left:400px;
+	margin-right:400px;
+	position:relative;
+}
+.box .left{
+	float:left;
+	padding-left:10px;
+	font-size:14px;
+	width:350px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.p_2{
+	display:inline-block;
+	margin-bottom:10px;
+}
+.p_2 a:hover{
+	color:#008CD6;
+}
+.p_1{
+	display:block;
+	margin-bottom:10px;
+	margin-left:30px;
+}
+.p-1{
+	float:right;
+	display:block;
+	margin-top:-30px;
+	margin-right:30px;
+}
+.left ul li{
+	margin-bottom:10px;
+	height:39px;
+	font-size:14px;
+	line-height:39px;
+}
+.li_1{
+	background:#CCC;
+	position:relative;
+}
+.li_1_1{
+	position:absolute;
+	margin-left:5px;
+	margin-top:1px;
+}
+.li-1{
+	margin-left:40px;
+	background:#CCC;
+	font-size:16px;
+	border:none;
+	width:170px;
+}
+.li_1 a:hover{
+	color:#008CD6;
+}
+.li_2{
+	background:#CCC;
+	position:relative;
+}
+.li_2 img{
+	position:absolute;
+	margin-left:5px;
+	margin-top:1px;
+}
+.li-2{
+	margin-left:40px;
+	background:#CCC;
+	font-size:16px;
+	border:none;
+}
+.li_3,.li_4,.li_5{
+	background:#CCC;
+	position:relative;
+}
+.li_3 img,.li_4 img,.li_5 img{
+	position:absolute;
+	margin-left:5px;
+	margin-top:1px;
+}
+.li-3,.li-4,.li-5{
+	margin-left:40px;
+	background:#CCC;
+	font-size:16px;
+	border:none;
+}
+.li_3 a{
+	float:right;
+	width:90px;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+	background:#008CD6;
+	color:#FFF;
+}
+.li_3 a:hover{
+	color:#FFF;
+}
+.li_6{
+	position:relative;
+}
+.li_6 img{
+	position:absolute;
+	margin-left:10px;
+	margin-top:10px;
+}
+.li_6 span{
+	margin-left:35px;
+}
+.li_6 a:hover{
+	color:#008CD6;
+}
+.li_7{
+	background:#008CD6;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+}
+.li-7{
+	font-size:20px;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+	background:#008CD6;
+	border:none;
+	color:#FFF;
+}
+.right{
+	border-left:#666 1px solid;
+	float:left;
+	margin-left:20px;
+	padding-left:20px;
+}
+.right ul li{
+	margin-top:10px;
+}
+.tmd{
+	display:none;
+	position:absolute;
+	left:380px;
+	top:0px;
+	width:169px;
+	height:268px;
+	background:#000;
+	opacity:0.2;
+}

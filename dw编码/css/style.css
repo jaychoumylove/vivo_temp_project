@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px/1.5 simsun, "Microsoft YaHei", Verdana, Geneva, sans-serif;
+	background: #ffffff;
+}
+div, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, textarea, blockquote, p {
+	padding: 0;
+	margin: 0;
+}
+ul, ol, li, dl, dd {
+	list-style: none
+}
+
+img {
+	vertical-align: top;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+ *zoom:1;
+}
+.clearfix:after {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #c00;
+	text-decoration: none;
+}

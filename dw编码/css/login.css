@@ -1,0 +1,23 @@
+.vivo_login{width:100%;margin:0 auto; font-family:Microsoft yahei;}
+.vivo_login .vivo_l_top{width:100%;margin:0 auto;}
+.vivo_login .vivo_l_top a{display:block;text-align:center;width:100%;}
+.vivo_login .vivo_l_center{width:800px; margin:0 auto;}
+.vivo_login .vivo_l_center .left,.vivo_login .vivo_l_center .right{float:left; margin-top:20px;}
+.vivo_login .vivo_l_center .left{width:380px; margin-left:20px; font-size:14px; overflow:hidden;}
+.vivo_login .vivo_l_center .left a:hover{color:#008CD6;}
+.vivo_login .vivo_l_center .left ul li{ height:39px; line-height:39px; margin-bottom:10px;}
+.vivo_login .vivo_l_center .left .email{display:none;}
+.vivo_login .vivo_l_center .left .phone li,.vivo_login .vivo_l_center .left .email li{ background:#CCC; position:relative;}
+.vivo_login .vivo_l_center .left .phone li .li__0,.vivo_login .vivo_l_center .left .email li .li__0{ position:absolute;margin-left:5px;margin-top:1px;}
+.vivo_login .vivo_l_center .left .phone .li_1 input,.vivo_login .vivo_l_center .left .email .li-4 input{width:190px;}
+.vivo_login .vivo_l_center .left .phone li input,.vivo_login .vivo_l_center .left .email li input{margin-left:40px;background:#CCC;font-size:16px;border:none;}
+.vivo_login .vivo_l_center .left .phone li .input_1,.vivo_login .vivo_l_center .left .email li .input_1{width:330px;}
+.vivo_login .vivo_l_center .left .phone .li_3 input{width:250px;}
+.vivo_login .vivo_l_center .left .phone .li_1 span img,.vivo_login .vivo_l_center .left .email .li-4 span img{ border-left:#FFF 1px solid;border-right:#FFF 1px solid;}
+.vivo_login .vivo_l_center .left .phone .li_1 a,.vivo_login .vivo_l_center .left .email .li-4 a{display:inline-block; line-height:39px; height:39px; text-align:center; color:#666;}
+.vivo_login .vivo_l_center .left .phone .li_1 a:hover,.vivo_login .vivo_l_center .left .email .li-4 a:hover{color:#008CD6;}
+.vivo_login .vivo_l_center .left .phone .li_3 a{display:inline-block;height:39px;line-height:39px; width:85px;text-align:center; background:#008CD6;color:#FFF;}
+.vivo_login .vivo_l_center .left ul .li_7{ background:#008CD6; color:#FFF; width:100%; height:39px; line-height:39px; text-align:center; border:none;}
+.vivo_login .vivo_l_center .left ul .li_7 input{ background:#008CD6; color:#FFF; width:100%; height:39px; line-height:39px; text-align:center; border:none; font-size:18px;}
+.vivo_login .vivo_l_center .right{margin-left:20px; border-left:1px solid #ccc; padding-left:20px;}
+.vivo_login .vivo_l_center .right ul li{ height:40px; line-height:40px; margin-bottom:10px;}

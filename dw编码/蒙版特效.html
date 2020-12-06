@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>蒙版特效</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<style type="text/css">
+	.box,.bxo,.obx{margin:0 auto;background-color:#000;width:500px; position:relative; overflow:hidden;}
+	.box a,.bxo a,.obx a{display:inline-block; text-align:center; width:100%; height:100%; text-decoration:none; margin:0 auto;}
+	.box a p,.bxo a p{display:none; color:#0080FF; position:absolute;top:45%; left:30%;width:40%; text-align:center;}
+	.box a div,.bxo a div{/*display:none;*/position:absolute;opacity:0.3; height:0;} 
+	.box a div{background:#fff;width:0;}
+	.bxo a div{background:#000;width:100%;}
+	.l-t{left:0px;top:0px;}
+	.r-t{right:0px;top:0px;}
+	.l-b{left:0px;bottom:0px;}
+	.r-b{right:0px;bottom:0px;}
+	{margin:0 auto;background-color:#fff;width:500px; position:relative;}
+	.t{top:0px;width:100%;}
+	.b{bottom:0px;width:100%;}
+	.b-t{opacity:0.5; background:#CCC;width:100%; text-align:center; position:absolute; bottom:-80px;height:80px; line-height:80px; color:#000;}
+</style>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".box a").hover(function(){
+			$(".box a p").fadeIn(),500;
+			$(".box a").find(".l-t,.l-b,.r-t,.r-b").stop().animate({"width":"50%","height":"50%"},500);
+		},function(){
+			$(".box a p").fadeOut(),500;
+			$(".box a").find(".l-t,.l-b,.r-t,.r-b").stop().animate({"width":"0","height":"0"},500);
+		})
+		$(".bxo a").hover(function(){
+			$(".bxo a p").fadeIn(),500;
+			$(".bxo a").find(".t,.b").stop().animate({"height":"50%"},500);
+		},function(){
+			$(".bxo a p").fadeOut(),500;
+			$(".bxo a").find(".t,.b").stop().animate({"height":"0"},500);
+		})
+		$(".obx a").hover(function(){
+			$(".obx a").find(".b-t").stop().animate({"bottom":"0"},500);
+		},function(){
+			$(".obx a").find(".b-t").stop().animate({"bottom":"-80px"},500);
+		})
+	})
+</script>
+</head>
+
+<body>
+	<div class="box">
+    	<a href="#" target="_blank">
+        	<img src="images/玫瑰.jpg" alt="玫瑰"/>
+            <p>玫瑰</p>
+            <div class="l-t"></div>
+            <div class="r-t"></div>
+            <div class="l-b"></div>
+            <div class="r-b"></div>
+        </a>
+    </div>
+    <div class="bxo">
+    	<a href="#" target="_blank">
+        	<img src="images/吻.jpg" alt="Naruto and hinata"/>
+            <p>Naruto and hinata</p>
+            <div class="t"></div>
+            <div class="b"></div>
+        </a>
+    </div>
+    <div class="obx">
+    	<a href="#" target="_blank">
+        	<img src="images/花儿.jpg" alt="花儿"/>
+            <div class="b-t">花儿</div>
+        </a>
+    </div>
+</body>
+</html>

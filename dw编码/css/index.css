@@ -1,0 +1,241 @@
+/* CSS Document */
+
+body{
+	background:#FFF;
+	width:100%;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+}
+.top{
+	width:100%;
+	background:#FFF;
+	position:fixed;
+	margin-top:-100px;
+}
+.top a .logo{
+	float:left;
+	/*position:absolute;*/
+	margin-left:66px;
+	margin-top:17px;
+}
+.top .nav{
+	height:80px;
+	width:676px;
+	margin:0 auto;
+	/*display:inline-block;*/
+}
+.top .nav ul li{
+	float:left;
+	width:81px;
+	line-height:80px;
+	height:80px;
+	text-align:center;
+	background:#FFF;
+}
+.top .nav ul li a{
+	display:inline-block;
+	width:81px;
+	line-height:80px;
+	color:#008CD6;
+	height:80px;
+	text-align:center;
+	font-size:16px;
+}
+.top .nav ul li a:hover{
+	color:#FFF;
+	background:#008CD6;
+}
+.top .right_link{
+	float:right;
+	margin-right:32px;
+	margin-top:-57px;
+}
+.top .right_link a img{
+	/*float:right;*/
+	margin-left:14px;
+	/*margin-top:25px;
+	margin-right:32px;
+*/}
+.banner{
+	width:100%;
+	height:710px;
+	margin-top:100px;
+	margin-left:80px;
+	/*border:1px #008CD6 solid;*/
+}
+.banner .up{
+	width:100%;
+	/*height:400px;*/
+}
+.banner .up dt img{
+	/*margin-left:200px;position:relative;*/
+	
+}
+.banner .up dd{
+	line-height:30px;
+	height:30px;
+	/*text-align:center;*/
+	margin-left:0px;
+	margin-top:0px;
+	position:relative;
+}
+.banner .up dd a{
+	background:url(../images/a_bg.png) no-repeat;
+	color:#008CD6;
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	display:inline-block;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	width:98px;
+	position:absolute;
+	margin-top:-130px;
+	margin-left:800px;
+}
+.banner .down{
+	width:100%;
+	margin-top:30px;
+}
+.banner .down a{
+	float:left;
+	margin:0 auto;
+}
+.box_1{
+	margin-top:30px;
+	margin-left:80px;
+	width:100%;
+	margin:0 auto;
+	/*border:1px #008CD6 solid;*/
+}
+.box_1 h2,.box_2 h3,.box_02 h2{
+	font-size:30px;
+	margin-left:20px;
+}
+.box_1 strong,.box_2 span{
+	float:left;
+	margin-left:100px;
+	font-size:18px;
+	border:1px #008CD6 solid;
+	color:#008CD6;
+	margin-top:-33px;
+}
+.box_1 dl{
+	margin-top:20px;
+	float:left;
+	margin-left:10px;
+}
+.box_1 dl a dd{
+	font-size:20px;
+	margin-top:20px;
+}
+.box_1 dl a:hover{
+	color:#008CD6;
+}
+.box_1 dl h3{
+	/*margin-left:120px;*/
+	font-size:20px;
+	color:#999;
+	margin-top:15px;
+}
+.box_2{
+	/*border:1px #008CD6 solid;*/
+	width:100%;
+	margin-top:30px;
+	position:relative;
+	margin-left:80px;
+	margin:0 auto;
+	/*height:150px;*/
+}
+.box_2 ul li{
+	float:left;
+	margin-top:20px;
+	width:33.33%;
+	height:100px;
+}
+.box_2 ul li a{
+	margin-left:20px;
+}
+.box_2 ul li a:hover{
+	color:#008CD6;
+}
+.box_2 ul li a strong{
+	background:url(../images/anniu.png) no-repeat;
+	display:inline-block;
+	line-height:24px;
+	text-align:center;
+	height:24px;
+	width:42px;
+	font-size:14px;
+	color:#FFF;
+	position:absolute;
+	margin-bottom:100px;
+	margin-left:8px;
+}
+.box_2 ul li a p{
+	display:inline-block;
+	/*float:left;*/
+	margin-bottom:200px;
+	margin-top:-100px;
+	margin-left:30px;
+}
+.box_2 ul li p{
+	display:inline-block;
+	margin-left:-200px;
+	margin-top:-20px;
+}
+.box_02{
+	/*border:1px #008CD6 solid;*/
+	margin-top:30px;
+	margin-left:80px;
+	margin:0 auto;
+	/*text-align:center;*/
+}
+.box_02 ul li{
+	display:block;
+	float:left;
+	width:33.33%;
+	/*color:#008CD6;*/
+}
+.box_02 ul li a{
+	/**/
+}
+.box_02 ul li .wenz{
+	float:left;
+	margin-left:20px;
+}
+.box_02 ul li h4{
+	margin-left:150px;
+}
+.box_02 ul li a:hover{
+	color:#008CD6;
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	opacity:0;
+	width:100%;
+	background:#222222;
+	text-align:center;
+}
+.footer .logo_1{
+	margin-left:0px;
+	margin-top:30px;
+}
+.footer a{
+	text-align:center;
+	margin-left:10px;
+	color:#aaaaaa;
+}
+.footer a:hover{
+	color:#008CD6;
+}
+.footer p{
+	color:#aaaaaa;
+}
+.0101:hover{
+	color:#C03;
+}

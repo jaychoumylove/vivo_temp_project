@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body{
+	width:100%;
+	margin:0 auto;
+}
+.box{
+	margin-top:38px;
+	margin-left:400px;
+	margin-right:400px;
+	
+	/*border:#008CD6 1px solid;
+	height:900px;*/
+}
+.box .left{
+	float:left;
+	padding-left:10px;
+	font-size:14px;
+	width:300px;
+	overflow:hidden;
+}
+.box .left p{
+	margin-bottom:10px;
+}
+.box .left ul li{
+	width:300px;
+	margin-bottom:10px;
+	height:39px;
+	font-size:14px;
+	/*text-align:center;
+	line-height:39px;*/
+}
+.li-1{
+	background:#CCC;
+	position:relative;
+}
+.li-1 .li-1-1{
+	position:absolute;
+	margin-left:5px;
+	margin-top:1px;
+}
+.li_1{
+	line-height:39px;
+	height:39px;
+	margin-left:40px;
+	width:300px;
+	border:none;
+	background:#CCC;
+	overflow:hidden;
+}
+.li-2{
+	background:#CCC;
+	position:relative;
+}
+.li-2 .li-2-2{
+	position:absolute;
+	margin-left:5px;
+	margin-top:1px;
+}
+.li_2{
+	line-height:39px;
+	height:39px;
+	margin-left:40px;
+	width:300px;
+	border:none;
+	background:#CCC;
+}
+.li_3{
+	background:url(../images/li_bg.png) repeat-x;
+	color:#FFF;
+	font-size:20px;
+	height:39px;
+	width:300px;
+	border:none;
+}
+.li_4{
+	height:39px;
+	width:300px;
+	border:none;
+}
+.li_4 .li-4-1{
+	display:inline-block;
+	float:right;
+}
+.li_4 .li-4-1:hover{
+	color:#008CD6;
+}
+.li_5{
+	height:39px;
+	width:300px;
+	border:none;
+}
+.li-5{
+	display:inline-block;
+	color:#FFF;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+	width:300px;
+	font-size:20px;
+	background:url(../images/li_bg-3.png) repeat-x;
+}
+.li-5:hover{
+	color:#FFF;
+}
+.right{
+	border-left:#666 1px solid;
+	float:right;
+	padding-left:30px;
+}
+.right ul li{
+	margin-top:10px;
+}
